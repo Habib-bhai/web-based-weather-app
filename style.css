@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    background: linear-gradient(to bottom, #7ecbff , #d6e7ff);
+}
+
+
+.body {
+    border: 5px solid black;
+    z-index: 10;
+    height: 50vh;
+    width: 50vw;
+}
+.branding {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    font-weight: 900;
+    /* color: aqua; */
+}
+.branding p {
+    color: black;
+    font-style: oblique;
+}
+
+.Clouds-and-temperature {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#temperature {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12vh;
+}
+.Clouds-and-temperature img {
+    height: 8vh;    
+}
+
+.City-Name {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+font-size: 1.5rem;
+}
+
+
+.townhall img {
+    height: 35vh;
+    width: 100%;
+    position: static;    
+}
+
+.search-Parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    background:  rgb(40, 76, 111);
+    
+}
+
+.search {
+    position: relative;
+    display: flex;
+}
+
+
+.search-Parent input {
+    outline: none;
+    width: 25vw;
+    height: 6vh;
+    /* margin-top: -10px; */
+    border-radius: 15px;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    
+}
+
+.search button {
+    border: none;
+    position: absolute;
+    background: none;
+    z-index: 10;
+    right: 4px;
+}
+
+.search button:hover {
+    background-color: rgba(153, 153, 153, 0.181);
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    cursor: pointer;
+}
+.searchButton {
+    height: 4vh;
+    margin-top: 0.2rem;
+    padding: 4px;
+    
+}
+
+.humidity-weatherCond-WindSpeed {
+    display: flex;
+    background:  rgb(40, 76, 111);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wind-Speed {
+    margin-bottom: 10px;
+    height: 90px;
+    width: 90px;
+    background: black;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #02a199 , #41f3ea);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.wind-Speed img {
+    width: 40px;
+    margin-bottom: 7px;
+}
+.wind-Speed h6 {
+    margin-top: 5px;
+    font-style: oblique;
+    color: black;
+    
+}
+
+.wind-Speed:hover {
+    transition:ease-in-out;
+    transition-property: height,widht;
+    transition-duration: 0.3S;
+    height: 100px;
+    width: 100px;
+}
+.wind-Speed h6:hover {
+    transition:ease-in-out;
+    transition-property: font-size, color;
+    transition-duration: 0.2S;
+    font-size: 1.0rem;
+    color: #FEAE6F;
+    font-weight: 900;
+}
+.wind-Speed p:hover {
+    transition:ease-in-out;
+    transition-property: font-size, color;
+    transition-duration: 0.2S;
+    font-size: 1.3rem;
+    color:blue;
+    font-weight: 900;
+}
+.Weater-condition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;  
+    height: 90px;
+    width: 90px;
+    background: black;
+    background: linear-gradient(to bottom, #02a199 , #41f3ea);
+    font-size: 15px;
+    
+    margin-bottom: 10px;
+}
+
+.Weater-condition:hover {
+    transition:ease-in-out;
+    transition-property: height,widht;
+    transition-duration: 0.3S;
+    height: 100px;
+    width: 100px;
+}
+.Weater-condition h6:hover {
+    transition:ease-in-out;
+    transition-property: font-size, color;
+    transition-duration: 0.2S;
+    font-size: 1.0rem;
+    color: #FF7F3E;
+    font-weight: 900;
+}
+.Weater-condition p:hover {
+    transition:ease-in-out;
+    transition-property: font-size, color;
+    transition-duration: 0.2S;
+    font-size: 1.3rem;
+    color:blue;
+    font-weight: 900;
+}
+.Weater-condition img {
+    width: 40px;
+    margin-bottom: 7px;
+}
+.Weater-condition h6 {
+    margin-top: 5px;
+    font-style: oblique;
+    color: black;
+}
+
+
+.Humidity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+    background: black;
+    background: linear-gradient(to bottom, #02a199 , #41f3ea);
+    font-size: 15px;
+    
+    margin-bottom: 10px;
+}
+.Humidity:hover {
+    transition:ease-in-out;
+    transition-property: height,widht;
+    transition-duration: 0.3S;
+    height: 100px;
+    width: 100px;
+}
+
+.Humidity h6:hover {
+    transition:ease-in-out;
+    transition-property: font-size, color;
+    transition-duration: 0.2S;
+    font-size: 1.3rem;
+    color: #2A629A;
+    font-weight: 900;
+}
+.Humidity p:hover {
+    transition:ease-in-out;
+    transition-property: font-size, color;
+    transition-duration: 0.2S;
+    font-size: 1.3rem;
+    color:blue;
+    font-weight: 900;
+}
+
+.Humidity img {
+    width: 40px;
+    margin-bottom: 7px;
+}
+.Humidity h6 {
+    margin-top: 5px;
+    font-style: oblique;
+    color: black; 
+}
